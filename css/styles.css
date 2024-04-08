@@ -229,7 +229,7 @@ address {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  
+
 }
 .characteristic-item {
   width: calc((100% - 48px) / 3);
@@ -342,11 +342,13 @@ border-radius: 0 0 4px 4px;
   margin-left: 16px;
 }
 
-.icon-link-team:hover {
-  background-color: aquamarine;
+.icon-link-team:hover, :focus {
+  background-color: #404bbf;
 }
 
-.icon-icon-team {}
+.icon-icon-team {
+  fill: #f4f4fd;
+}
 
 
 
@@ -483,6 +485,7 @@ margin-left:156px ;
 .icon-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 
 }
 
