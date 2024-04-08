@@ -480,14 +480,10 @@ margin-right: 120px;
   color: #fff;
   margin-bottom: 16px;
 }
-.icon-list-ftr{
-  display: flex;
-  gap: 16px;
-}
+
 .icon-list {
   display: flex;
   gap: 16px;
-
 }
 
 .icon-item {
