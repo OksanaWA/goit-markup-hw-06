@@ -415,7 +415,7 @@ border-radius: 0 0 4px 4px;
 .endnote-menu {
   background: #2e2f42;
   padding: 100px 0;
-  margin-right: 120px;
+  
 }
 .endnote-menu-container {
   display: flex;
@@ -427,7 +427,7 @@ display: flex;
 flex-direction: column;
 margin-left:156px ;
 align-items: baseline;
-
+margin-right: 120px;
 
 }
 .endnote-text {
@@ -470,7 +470,7 @@ align-items: baseline;
 .icon-item {
   width: 40px;
   height: 40px;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link {
@@ -488,4 +488,6 @@ align-items: baseline;
   background-color: aquamarine;
 }
 
-.icon-icon {}
+.icon-icon { 
+  fill: #f4f4fd;
+}
