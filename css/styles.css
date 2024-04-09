@@ -235,10 +235,7 @@ address {
   width: calc((100% - 48px) / 3);
 }
 .characteristic-icon{
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background: #f4f4fd;
-  padding: 24px 100px;
+
 }
 
 .characteristic-title {
@@ -273,7 +270,7 @@ address {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
-  padding: 120px 0;
+
   text-align: center;
 }
 
@@ -343,7 +340,7 @@ a.one-link{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 16px;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -461,7 +458,7 @@ margin-right: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  min: width 264px;
+  max-width: 264px;
   ;
 }
 .endnote-logo-image {
