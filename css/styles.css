@@ -821,6 +821,7 @@ border: none;
   display: block;
   font-size: 16px
   margin: 0 auto;
+    font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -831,7 +832,7 @@ border: none;
 }
 
 .exit-text-btn {
-    font-weight: 500;
+  
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
