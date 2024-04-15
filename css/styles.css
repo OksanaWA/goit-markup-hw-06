@@ -203,7 +203,7 @@ address {
   padding: 120px 0;
   
 }
-.characteristic-menu {
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -758,7 +758,7 @@ margin-right: 120px;
 .modal-field-check{
   margin-bottom: 24px;
 }
-.modal-check{
+.modal-check .visually-hidden{
   position: absolute;
     width: 1px;
     height: 1px;
@@ -783,9 +783,7 @@ border: none;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-top: 16px; 
-    display: flex;
-    align-items: center;
-    gap: 8px;
+
 }
 
 .quote-spn {
@@ -793,6 +791,7 @@ border: none;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
+  margin-right: 8px;
       display: flex;
       display: inline-flex;
         align-items: center;
@@ -840,8 +839,3 @@ border: none;
   color: #fff;
 }
 
-.exit-btn-div {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 24px;
-}

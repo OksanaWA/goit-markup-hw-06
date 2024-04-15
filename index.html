@@ -54,7 +54,7 @@
     <!-- characteristic -->
     <section class="characteristic">
         <div class="container">
-            <h2 class="characteristic-menu">characteristic</h2>
+            <h2 class="visually-hidden">characteristic</h2>
             <ul class="characteristic-list">
                 <li class="characteristic-item">
                     <div class="characteristic-item-div"><svg class="characteristic-icon" width="64" height="64">
@@ -420,7 +420,7 @@
     <div class="modal">
         <button type="button" class="modal-open-btn">
             <svg class="icon-back" width="8" height="8">
-                <use href="/images/icons.svg#icon-close-black-18dp-2-1-2"></use>
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1-2"></use>
             </svg>
 
         </button>
@@ -463,23 +463,28 @@
 
             <div class="modal-field-check">
                 <input type="checkbox"
-                name="policy"
+                name="user-privacy"
                 id="user-privacy"
-                class="modal-check "
+                class="modal-check visually-hidden"
                 value="true"
                 >
                 <label for="user-privacy"
-                class="quote"><span class="quote-spn">
+                class="quote">
+                <span class="quote-spn">
                     <svg class="quote-icon" width="10" height="8">
                     <use href="./images/icons.svg#icon-Vector-3"></use>
-                </svg></span>I accept the terms and conditions of the <a href="" class="block-quote">Privacy Policy</a></label>
+                    </svg>
+            </span>
+            I accept the terms and conditions of the 
+                <a href="" class="block-quote">Privacy Policy</a>
+            </label>
             
             </div>
         
-            <div class="exit-btn-div">
+            
                 <button class="exit-btn" type="submit"> <span class="exit-text-btn">Send</span>
                 </button>
-            </div>
+            
 
         </form>
 
