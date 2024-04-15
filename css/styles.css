@@ -550,7 +550,6 @@ margin-right: 120px;
     height: 40px;
     background: #4d5ae5;
     display: flex;
-    gap: 16px;
     min-width: 165px;
     justify-content: center;
     border: none;
@@ -576,14 +575,10 @@ margin-right: 120px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    margin-top: 8px;
-    margin-bottom: 8px;
 
 }
 .ftr-icon {
   fill: #fff;
-  margin-top: 8px;
-  margin-bottom: 8px;
   margin-left: 16px;
 
 }
@@ -665,7 +660,7 @@ margin-right: 120px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 48px;
+
   margin-bottom: 16px;
 }
 
@@ -819,9 +814,9 @@ border: none;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
-  font-size: 16px
+  font-size: 16px;
   margin: 0 auto;
-    font-weight: 500;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
