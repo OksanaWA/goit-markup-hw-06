@@ -339,7 +339,7 @@ ul.mobile-one-list {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/Dark-bg-mob-min.jpg);
+    url(../images/Dark-bg-mob-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -387,7 +387,7 @@ ul.mobile-one-list {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/Dark-bg-tab-min.jpg);
+      url(../images/people-office-min.jpg);
   }
   .benefits-title {
     font-size: 56px;
